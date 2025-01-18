@@ -1,0 +1,125 @@
+body {
+    background-image: url(/img/cubes-3381438_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    overflow-y:visible;
+    overflow-x:hidden;
+}
+
+
+#stop{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#middle{
+    height: 33vh;
+    width: 50vw;
+    background-color: aliceblue;
+    box-shadow: 10%;
+    border-radius: 20px;
+    text-align: center;
+}
+#middle1{
+    margin: 5px;
+    padding: 2px;
+}
+input{
+    height: 5vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+/*  */
+
+#top {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+#top-3 {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Add spacing between cards */
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(185, 218, 246, 0.3);
+}
+
+ 
+
+#card{
+    min-height: 20vh;
+    width: 20vw;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px solid black; /* Ensure border is visible */
+    background-color: rgb(189, 214, 235);
+    padding: 10px; /* Add padding inside the div */
+}
+img {
+    width: 4vw;  /* Or specific dimensions */
+    /* height: 300px; */
+    object-fit: contain;
+    border-radius: 50%;
+}
+#cardb{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    gap: 10px;
+}
+
+#cardt{
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none
+}
+
+#card:hover {
+    transform: scale(1.05);
+}
+
+#top-1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#top-1 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #007bff;
+    color: white;
+}
+
+#top-1 a:hover {
+    background-color:antiquewhite ;
+    color: #007bff;
+}
+button{
+    border-radius: 20px;
+}
