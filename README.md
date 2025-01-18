@@ -22,7 +22,7 @@ Ensure you have the following installed:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/roshanrbhamare/SukshmaKink.git
+   git clone https://github.com/roshanrbhamare/SukshmaLink.git
    
    cd SukshmaLink
    ```
